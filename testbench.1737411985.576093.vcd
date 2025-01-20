@@ -1,0 +1,76 @@
+$date
+   Mon Jan 20 22:26:25 2025 UTC
+$end
+$version
+    MyHDL 0.11.51
+$end
+$timescale
+    1ns
+$end
+
+  $scope module testbench $end
+    $var reg 4 ! addr $end
+    $var reg 1 " clk $end
+    $var reg 8 # data_in $end
+    $var reg 8 $ data_out $end
+    $var reg 1 % we $end
+    $scope module SyncRAM0 $end
+      $var reg 1 " clk $end
+      $var reg 4 ! addr $end
+      $var reg 8 # data_in $end
+      $var reg 8 $ data_out $end
+      $var reg 1 % we $end
+      $scope module memory $end
+        $var reg 8 & memory(0) $end
+        $var reg 8 ' memory(1) $end
+        $var reg 8 ( memory(2) $end
+        $var reg 8 ) memory(3) $end
+        $var reg 8 * memory(4) $end
+        $var reg 8 + memory(5) $end
+        $var reg 8 , memory(6) $end
+        $var reg 8 - memory(7) $end
+        $var reg 8 . memory(8) $end
+        $var reg 8 / memory(9) $end
+        $var reg 8 0 memory(10) $end
+        $var reg 8 1 memory(11) $end
+        $var reg 8 2 memory(12) $end
+        $var reg 8 3 memory(13) $end
+        $var reg 8 4 memory(14) $end
+        $var reg 8 5 memory(15) $end
+      $upscope $end
+    $upscope $end
+  $upscope $end
+
+$enddefinitions $end
+
+$dumpvars
+b0000 !
+0"
+b00000000 #
+b00000000 $
+0%
+b00000000 &
+b00000000 '
+b00000000 (
+b00000000 )
+b00000000 *
+b00000000 +
+b00000000 ,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+b00000000 2
+b00000000 3
+b00000000 4
+b00000000 5
+$end
+1%
+#5
+1"
+0%
+#10
+0"
+#15
+1"
